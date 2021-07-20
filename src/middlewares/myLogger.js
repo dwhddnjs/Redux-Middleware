@@ -7,4 +7,3 @@ const myLogger = (store) => (next) => (action) => {
 };
 
 export default myLogger;
-
