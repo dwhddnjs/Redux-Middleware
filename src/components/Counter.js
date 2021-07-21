@@ -12,4 +12,4 @@ function Counter({ number, onIncrease, onDecrease }) {
 
 export default Counter;
 
-//only UI component
+//only for UI component
