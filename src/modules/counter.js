@@ -17,6 +17,7 @@ export default function couter(state = initialState, action) {
 
     case DECREASE:
       return state - 1;
+      
     default:
       return state;
   }
