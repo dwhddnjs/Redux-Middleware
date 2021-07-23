@@ -7,6 +7,7 @@ import rootReducer from "./modules";
 // import myLogger from "./middlewares/myLogger";
 import logger from "redux-logger";
 import { composeWithDevTools } from "redux-devtools-extension";
+import ReduxThunk from "redux-thunk";
 
 //스토어 생성
 const store = createStore(
