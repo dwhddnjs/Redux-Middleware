@@ -23,6 +23,11 @@ const posts = [
     title: "모빅스",
     body: "리덕스의 라이벌 모빅스",
   },
+  {
+    id: 5,
+    title: "그래프큐엘",
+    body: "새로운 스택",
+  },
 ];
 
 export const getPosts = async () => {
