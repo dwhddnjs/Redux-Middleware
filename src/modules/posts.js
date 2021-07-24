@@ -1,5 +1,7 @@
+import { fuchsia } from "color-name";
 import * as postsAPI from "../api/posts";
 
+//액션 생성 함수
 const GET_POSTS = "GET_POSTS";
 const GET_POSTS_SUCCESS = "GET_POSTS_SUCCESS";
 const GET_POSTS_ERROR = "GET_POSTS_ERROR";
@@ -7,6 +9,7 @@ const GET_POSTS_ERROR = "GET_POSTS_ERROR";
 const GET_POST = "GET_POST";
 const GET_POST_SUCCESS = "GET_POST_SUCCESS";
 const GET_POST_ERROR = "GET_POSTS_ERROR";
+
 
 export const getPosts = () => async (dispatch) => {
   //요청이 시작됨
@@ -20,7 +23,7 @@ export const getPosts = () => async (dispatch) => {
       posts,
     });
   } catch (e) {
-    //실패 했을때
+    //실패 했을때                    
     dispatch({
       type: GET_POSTS_ERROR,
       error: e,
@@ -47,3 +50,6 @@ export const getPost = (id) => async (dispatch) => {
     });
   }
 };
+
+
+
