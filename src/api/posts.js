@@ -28,6 +28,11 @@ const posts = [
     title: "그래프큐엘",
     body: "새로운 스택",
   },
+  {
+    id: 6,
+    title: "뷰",
+    body: "리액트보단 쉬운 친구",
+  },
 ];
 
 export const getPosts = async () => {
