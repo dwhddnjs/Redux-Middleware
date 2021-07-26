@@ -33,6 +33,11 @@ const posts = [
     title: "뷰",
     body: "리액트보단 쉬운 친구",
   },
+  {
+    id: 7,
+    title: "sql",
+    body: "데이터 베이스 친구",
+  },
 ];
 
 export const getPosts = async () => {
