@@ -38,6 +38,11 @@ const posts = [
     title: "sql",
     body: "데이터 베이스 친구",
   },
+  {
+    id: 8,
+    title: "nextjs",
+    body: "자바스크립트 프레임 워크",
+  },
 ];
 
 export const getPosts = async () => {
