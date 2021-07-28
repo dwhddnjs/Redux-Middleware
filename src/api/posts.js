@@ -43,6 +43,11 @@ const posts = [
     title: "nextjs",
     body: "자바스크립트 프레임 워크",
   },
+  {
+    id: 9,
+    title: "nuxt",
+    body: "마지막 데이터",
+  },
 ];
 
 export const getPosts = async () => {
